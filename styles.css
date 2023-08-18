@@ -1,0 +1,66 @@
+/*------------------- navigation */
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: lighter;
+    font-family: Ubuntu;
+}
+
+.nav-item{
+    padding: 0 10px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: Montserrat;
+}
+
+#intro{
+    background-color:#ff4c68;
+    margin: 0;
+    
+    
+}
+h1{
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-family: Montserrat;
+    font-weight: 800;
+}
+.container-fluid{
+    padding: 3% 10%;
+    color: #ffffff;
+}
+.phone{
+    inline-size: 60%;
+    transform: rotate(35deg);
+}
+.intro-button{
+    margin: 8% 2% 0 0;
+}
+/* --------page2 */
+#features{
+    text-align: center;
+    padding:5% 10%;
+}
+
+h2{
+    font-weight: bold;
+    font-family: Montserrat;
+}
+
+p{
+    color: gray;
+}
+ 
+.fss-features{
+    padding: 7%;
+}
+
+.fss-icon{
+    color: #ef8172;
+    margin: 1rem;
+    font-size: 2.5rem;
+}
+.fss-icon:hover{
+    color:#ff4c68 ;
+}
