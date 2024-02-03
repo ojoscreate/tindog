@@ -1,6 +1,6 @@
 /*------------------- navigation */
 .navbar-brand{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: lighter;
     font-family: Ubuntu;
 }
@@ -12,7 +12,49 @@
 .nav-link{
     font-size: 1.2rem;
     font-family: Montserrat;
+    color: #ffffff;
 }
+
+#intro-nav{
+    /* position: fixed; */
+    background:linear-gradient(300deg, #00bfff, #f6546c, #ff4c68);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+
+@media (min-width:100px) and (max-width:900px) {
+    .Tdog{
+        height: 30px;
+    }
+    .navbar-brand{
+        font-size: 1.5625rem;
+        font-family: Ubuntu;
+
+    }
+    
+}
+
+/**------------intro-page--------*/
+
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 
 #intro{
     background-color:#ff4c68;
@@ -63,4 +105,50 @@ p{
 }
 .fss-icon:hover{
     color:#ff4c68 ;
+}
+
+/* ---------testimony------ */
+
+#testy{
+    text-align: center;
+    padding: 0% 10% 0%;
+}
+
+.testy{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+#logo{
+    text-align: center;
+    padding: 2% 10% 7%;
+}
+
+/* ----pricing---- */
+.sign-up{
+    background-color: #ef8172;
+}
+.sign-up:hover{
+    background-color: #ff4c68;
+}
+
+.price-outline{
+    border-color: #ef8172;
+}
+.price-outline:hover{
+    border-color: #ff4c68;
+}
+
+/* =-------call to action---- */
+#cta{
+    text-align: center;
+    padding: 5% 10%;
+}
+
+
+.hori-line{
+    margin: auto;
+    width: 70%;
+    border: dotted 3px ;
+    border-bottom: none;
 }
