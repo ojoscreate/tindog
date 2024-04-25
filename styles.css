@@ -125,6 +125,23 @@ p{
 }
 
 /* ----pricing---- */
+
+#price{
+    width: auto;
+}
+
+#p-tag{
+    /* width: auto; */
+    
+}
+
+/* @media (min-width:100px)and (max-width:800px) {
+    #p-tag{
+        /* width:250px; */
+    }
+} */
+
+
 .sign-up{
     background-color: #ef8172;
 }
